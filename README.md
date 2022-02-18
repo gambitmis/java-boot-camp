@@ -76,4 +76,4 @@
 1. แสดงสถานะ เช่น สถานะการจ่ายเงิน , กำลังเตรียมพัสดุ, กำลังจัดส่ง, อยู่ระหว่างขนส่ง
 2. การแสดงสถานะ การจ่ายเงิน ถ้าเป็นการโอนต้องรอตรวจสอบการโอนก่อน แล้วถึงเปลี่ยนสถานะการจ่ายเงินเป็น จ่ายแล้ว
 
-![image](https://github.com/gambtimis/java-boot-camp/java-boot-camp-week1.png?raw=true)
+![image](https://github.com/gambitmis/java-boot-camp/blob/main/java-boot-camp-week1.png?raw=true)
