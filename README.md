@@ -4,8 +4,30 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+<<<<<<< HEAD
     <li><a href="#user-journey">User Journey</a></li>
     <li><a href="#logical-diagram">Logical Diagram</a></li>
+=======
+    <li>
+      <a href="#about-the-project">User Journey</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+>>>>>>> 17c11f407a5894f7b9c7fc5869fc64ef33a7b35f
   </ol>
 </details>
 
@@ -59,6 +81,7 @@
 1. แสดงสถานะ เช่น สถานะการจ่ายเงิน , กำลังเตรียมพัสดุ, กำลังจัดส่ง, อยู่ระหว่างขนส่ง
 2. การแสดงสถานะ การจ่ายเงิน ถ้าเป็นการโอนต้องรอตรวจสอบการโอนก่อน แล้วถึงเปลี่ยนสถานะการจ่ายเงินเป็น จ่ายแล้ว
 
+<<<<<<< HEAD
 ## Logical Diagram
 ![image](https://github.com/gambitmis/java-boot-camp/blob/main/java-boot-camp-week1.png?raw=true)
 
@@ -73,3 +96,6 @@
 | POST | /api/v1/singup/
 
 
+=======
+![image](https://github.com/gambitmis/java-boot-camp/blob/main/java-boot-camp-week1.png?raw=true)
+>>>>>>> 17c11f407a5894f7b9c7fc5869fc64ef33a7b35f
