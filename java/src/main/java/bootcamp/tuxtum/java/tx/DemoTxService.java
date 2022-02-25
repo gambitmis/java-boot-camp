@@ -12,10 +12,16 @@ public class DemoTxService {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private Service2 service2;
+
+    @Autowired
+    private Service3 service3;
+
+    @Transactional
     public void callRepository() {
-        step1();
-        step2();
-        processLongRunning();
+        service2.doSth();
+        service3.doSth();
     }
 
     public void processLongRunning(){
