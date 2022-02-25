@@ -13,7 +13,7 @@ public class UserGateway {
 
     public UserResponse getUserById(int id) {
         // TODO
-        UserResponse response = restTemplate.getForObject("https://jsonplaceholder.typicode.com/users/1", UserResponse.class);
+        UserResponse response = restTemplate.getForObject("https://jsonplaceholder.typicode.com/users/" + id, UserResponse.class);
         return response;
     }
 }
