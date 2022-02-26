@@ -70,5 +70,21 @@
 | POST | /api/v1/signin/
 | POST | /api/v1/singup/
 
-
+## Deployment
+1. create docker network first
+```
+docker network create workshop
+```
+2. start docker-compose
+```
+docker-compose up -d
+```
+3. testing
+```
+http://127.0.0.1/call/1
+```
+4. stop docker service
+```
+docker-compose down -v
+```
 
