@@ -19,4 +19,8 @@ public class UserService {
         //return "Hello "+ name + " not found";
         throw new UserNotFoundException(name);
     }
+
+    public void setUerRepository(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 }
